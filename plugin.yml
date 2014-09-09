@@ -1,0 +1,35 @@
+main: ua.at.cockatoo2x.plugins.pvptower.PvpTower
+name: PvpTower
+version: 6.5.8
+author: Cockatoo2X
+description: A PvP Tower Battle Mini-Game!
+prefix: PvP Tower
+depend: [Vault]
+commands:
+    pvptcreatetower:
+        description: Create a PvP Tower to be used!
+    pvptsettowerspawn:
+        description: Sets the Tower's spawn point!
+    pvptleave:
+        description: Leave the tower you are in!
+    pvptfood:
+        description: Heal your food but only while in a tower!
+permissions:
+    pvpt.setup.createtower:
+        description: Allows use of /pvptcreatetower!
+    pvpt.setup.settowerspawn:
+        description: Allows use of /pvptsettowerspawn!
+    pvpt.setup.newjoinsigns:
+        description: Can make new PvPT join signs!
+    pvpt.setup.newwinsigns:
+        description: Make a new pvpt win sign!
+    pvpt.setup.newleavesign:
+        description: Make a new pvpt leave sign!
+    pvpt.setup.food:
+        description: Make a pvpt food heal sign!
+    pvpt.ingame.donor:
+        description: Gets Bonus item in the tower!
+    pvpt.ingame.donorplus:
+        description: Get a Lot of Bonus Item in the tower!
+    pvpt.ingame.admin:
+        description: Get a Lot of Special Bonus Items in the Tower!
